@@ -1,0 +1,14 @@
+to get access to repository through terminal,
+1. git clone "linkgithubrepository"
+2. git status -> to see the status on the folder that have been clone
+3. git add file | .
+4. git commit -m "message anything"
+5. git push | git push origin branchName-> to push go to github
+6. git pull -> get the lastest on github
+
+7. git branch -> showing the branch
+8. git branch new_Branch_Name -> create a otherBranchName
+9. git checkout otherBranchName -> change to other branch
+10. git checkout -b branchName -> create new branch name and automatically switch to the new branch have created
+11. git merge master -> merge anything from the "master" branch to current branch
+12. git diff -> to see detail what have been changed

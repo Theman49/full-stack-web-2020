@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right, red, yellow);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 1rem;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

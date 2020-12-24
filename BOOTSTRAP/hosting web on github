@@ -1,0 +1,9 @@
+repository name : username.github.io
+
+or
+
+upload file on github, don't forget to have index.html :
+- go to setting tab
+- go to github pages
+- select source to master branch
+- scroll down to github pages to get the link

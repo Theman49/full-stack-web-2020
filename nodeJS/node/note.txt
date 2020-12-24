@@ -1,0 +1,58 @@
+process -> what now is running on terminal
+process.exit() | .exit -> exit from node
+console.log(__dirname) -> same with pwd
+
+!!! node not implemented JS6
+common way to export n import in JS
+
+export
+---------------
+module.exports = {
+	properties: value
+}
+
+import
+---------------
+const variable = require('./path');
+	atau
+const variable = require('moduleNameFromNode');
+	ex -> require('fs') -> fs -> file system
+
+to use
+======
+console.log(variable.properties) -> because the export is an object
+
+library
+=====================================
+npm install --save-dev nodemon -> live server on terminal
+nodemon fileMon.js -> will monitoring just on fileMon.js
+express -> library for server/ backend
+body-parser -> grab all in body, like JSON
+bcrypt-nodejs -> security for login authentication
+
+.use() -> middle ware
+
+app.use((req, res, next) => {
+	console.log("<h2>helloooo</h2>");
+	next();
+})
+
+
+
+============
+RESTful APIs
+==============
+req.header -> the header
+req.query -> the query
+req.body -> form urlencoded
+req.params -> the path after '/'
+
+// REST API
+app.get('/:id', (req, res) => {
+	// console.log(req.query);
+	// req.body
+	// console.log(req.header);
+	console.log(req.params)
+	// res.send("success");
+	res.status(404).send("not found");
+})

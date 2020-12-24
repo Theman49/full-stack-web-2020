@@ -1,0 +1,6 @@
+readFile('pathFile', (err, data) => {}) -> async
+readFileSync('pathFile') -> sync
+
+=======================================
+console.time('label') -> start timer
+console.timeEnd('samelabel') -> stop timer

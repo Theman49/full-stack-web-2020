@@ -1,0 +1,17 @@
+------ JSON -------------
+JSON is JavaScript Object Notation
+
+JSON is text
+
+JSON.parse() -> change to JSON Object
+JSON.stringify() -> change to JSON string
+
+------ AJAX -------------
+AJAX is method combining for achieve all files
+XMLHttpRequest() -> tool for AJAX
+
+----- PROMISE -----------
+Promise.all() -> will be done if all promise done
+
+----- ASYNC AWAIT -------
+

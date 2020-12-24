@@ -1,0 +1,7 @@
+css tricks
+paleton.com
+
+parent -> 10px
+
+child -> 2em = 20px 
+child -> 5rem = 5 times root element (html -> root element)

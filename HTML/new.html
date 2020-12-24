@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="">
+        First name: <input type="text" name="firstname"><br>
+        Last name: <input type="text" name="lastname"><br>
+        Email: <input type="email" required name="email"><br>
+        Password: <input type="password" minlength="3" name="password"><br>
+        Birthday: <input type="date" name="birthday"><br>
+        Gender: <br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+        Pets: <br>
+        <input type="checkbox" name="pets" value="cat">Cat<br>
+        <input type="checkbox" name="pets" value="bird">Bird<br>
+        Cars: <br>
+            <select name="car">
+                <option value="volvo">Volvo</option>
+                <option value="dodge">Dodge</option>
+            </select><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <p>?firstname=title&lastname=fakelast&email=cakden%40example.com&password=adsg&birthday=2020-11-03&gender=male&pets=cat&pets=bird&car=dodge</p>
+</body>
+</html>

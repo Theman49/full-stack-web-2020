@@ -1,0 +1,11 @@
+npm init -> to make a packages json of project
+npm install -g packageName-> -g is globally. if no -g it's locally (just on that directory)
+npm install -> install package.json
+npm run scriptsName -> to run the scripts in package.json 
+
+
+packages popular
+1. live-server package
+2. lodash -> package of methods in js that can be used
+3. browserify -> to make bundle.js, syntax: "browserify script.js > bundle.js"
+4. tachyons -> like bootstrap

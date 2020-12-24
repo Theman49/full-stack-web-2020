@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+}
+
+#robot #head {
+    width: 200px;
+    height: 150px;
+    background-color: cyan;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    transition: all 1s;
+}
+
+#robot #head:hover {
+    width: 300px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+}
+
+#robot #head:hover #eyes {
+    margin-right: 100px;
+}
+
+#robot #head #eyes {
+    display: flex;
+    transition: all 1s;
+}
+
+#robot #head #eyes .eye {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0px 40px;
+    margin-top: 100px;
+}
+
+#robot #body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#robot #body .hand {
+    width: 40px;
+    height: 100px;
+    transition: all 1s;
+}
+
+#robot #body .hand .top-hand {
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+
+#robot #body .hand .mid-hand {
+    width: 40px;
+    height: 35px;
+    background-color: cyan;
+}
+
+#robot #body .hand .bottom-hand {
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+#robot #body .mid-body {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    margin: 0px 10px;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+#robot #legs {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+#robot #legs .leg {
+    margin: 0px 20px;
+    display: inline-block;
+    transition: all 1s;
+}
+
+#robot #legs .leg .top-leg {
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+
+#robot #legs .leg .mid-leg {
+    width: 40px;
+    height: 20px;
+    background-color: cyan;
+}
+
+#robot #legs .leg .bottom-leg {
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+/* #robot #legs:hover #right-leg {
+    transform: rotate(-20deg);
+}
+#robot #legs:hover #left-leg {
+    transform: rotate(20deg);
+} */
+
+#robot #body .mid-body:hover + #right-hand {
+    transform: rotate(-140deg) translateY(50px) translateX(10px);
+}
+
+#robot #body .hand#left-hand:hover,
+#robot #legs #left-leg:hover {
+    transform: rotate(20deg)
+}
+
+#robot #body .hand#right-hand:hover,
+#robot #legs #right-leg:hover {
+    transform: rotate(-20deg)
+}
